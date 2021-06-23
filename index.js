@@ -22,4 +22,4 @@ document.querySelector('form').addEventListener('submit', e => {
     secretLink.value = `${window.location}#${encrypted}`;
     secretLink.select()
 })
-console.log(btoa('eviealex'))
+console.log(atob('ZXZpZWFsZXg='))
